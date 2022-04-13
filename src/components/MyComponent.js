@@ -3,11 +3,15 @@ import React from "react";
 class MyComponent extends React.Component {
     constructor() {
         super();
+        this.state = {
+            myFName : "Ebrahim"
+        }
     }
     render(){
+        console.log(this.props.family);
         return (
             <>
-                <h1>This is My Component</h1>
+                <h1>This is My Component({this.state.myFName}+{this.props.family})</h1>
             </>
         )
     }

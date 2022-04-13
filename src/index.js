@@ -16,7 +16,7 @@ root.render(
   <React.StrictMode>
     {myHtml}
     <h1>Hello {name}!</h1>
-    <MyComponent/>
+    <MyComponent family="Salehipanah"/>
     <App />
   </React.StrictMode>
 );
